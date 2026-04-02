@@ -3,4 +3,7 @@ pandas
 numpy
 scikit-learn
 joblib
-
+rich==14.3.3
+pygments==2.20.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
