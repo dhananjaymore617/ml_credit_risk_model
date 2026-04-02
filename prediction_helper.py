@@ -23,7 +23,7 @@ def prepare_input(age, income, loan_amount, loan_tenure_months, avg_dpd_per_deli
         'loan_tenure_months': loan_tenure_months,
         'number_of_open_accounts': num_open_accounts,
         'credit_utilization_ratio': credit_utilization_ratio,
-        'loan_to_income': loan_amount / income if income > 0 else 0,
+        'loan_to_income_ratio': loan_amount / income if income > 0 else 0,
         'delinquency_ratio': delinquency_ratio,
         'avg_dpd_per_delinquency': avg_dpd_per_delinquency,
         'residence_type_Owned': 1 if residence_type == 'Owned' else 0,
