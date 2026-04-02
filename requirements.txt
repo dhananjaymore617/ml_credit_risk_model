@@ -1,9 +1,2 @@
-streamlit==1.28.2
-pandas
-numpy
 scikit-learn
 joblib
-rich==13.9.4
-pygments==2.20.0
-markdown-it-py==4.0.0
-mdurl==0.1.2
